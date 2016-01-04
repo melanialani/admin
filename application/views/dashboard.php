@@ -9,7 +9,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Overview</h1>
+				<h1 class="page-header">Dashboard</h1>
 			</div>
 		</div><!--/.row-->
 		
@@ -78,38 +78,26 @@
 				<div class="panel panel-default">
 					<div class="panel-heading"><svg class="glyph stroked clipboard with paper"><use xlink:href="#stroked-clipboard-with-paper"/></svg> New Orders</div>
 					<div class="panel-body">
-						<table id="table_new_order" class="table table-striped table-bordered" cellspacing="0" width="100%">
+						<table id="table" class="table table-striped table-bordered" cellspacing="0" width="100%">
 					    <thead>
 					        <tr>
 					            <th>ID HORDER</th>
-					            <th>ID Barang</th>
-					            <th>Nama Barang</th>
-					            <th>Keterangan</th>
-					            <th>Qty</th>
+					            <th>ID BARANG</th>
+					            <th>NAMA BARANG</th>
+					            <th>KETERANGAN</th>
+					            <th>QTY</th>
 					        </tr>
 					    </thead>
 					   	<tbody>
-					   		<tr>
-					            <th>1</th>
-					            <th>2</th>
-					            <th>3</th>
-					            <th>4</th>
-					            <th>5</th>
-					        </tr>
-					        <tr>
-					            <th>6</th>
-					            <th>7</th>
-					            <th>8</th>
-					            <th>9</th>
-					            <th>10</th>
-					        </tr>
-					        <tr>
-					            <th>11</th>
-					            <th>12</th>
-					            <th>13</th>
-					            <th>14</th>
-					            <th>15</th>
-					        </tr>
+							<?php foreach($allDataOrder as $row){?>
+							<tr> 
+								<td><?php echo $row->horder_id; ?></td>
+								<td><?php echo $row->barang_id; ?></td>
+								<td><?php echo $row->nama_barang; ?></td>
+								<td><?php echo $row->keterangan; ?></td>
+								<td><?php echo $row->qty; ?></td>
+							</tr>
+						   <?php }?>
 					   	</tbody>
 					</table>
 					</div>
@@ -127,10 +115,17 @@
 		</div><!--/.row-->
 	</div>	<!--/.main-->
 	
-	<script type="text/javascript" class="init">
-		$(document).ready(function() {
-			$('#table_new_order').DataTable();
-			
+	<script type="text/javascript">
+		var table;
+		$(document).ready(function(){
+			table = $('#table').DataTable();
+			 
 			$('#calendar').datepicker({});
-		} );
+		});
+		
 	</script>
+
+	
+
+	
+	

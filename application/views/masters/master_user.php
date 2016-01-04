@@ -64,7 +64,7 @@
 			$("#myBtn").click(function(){
 		        $("#myModal").modal();
 		    });
-		} );
+		});
 	</script>
 
 	<!-- Modal -->

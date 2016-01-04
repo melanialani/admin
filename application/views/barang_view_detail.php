@@ -152,6 +152,21 @@
 							<div class= 'row'>
 							<div class = 'col-md-12 col-xs-12 col-sm-12'>
 								<div class = 'col-md-2'>
+									<label for='detBerat' class='control-label'>Berat</label>
+								</div>
+								<div class = 'col-md-10'>
+									<?php 
+										$berat = $row->berat_gram;
+										echo form_input(['id'=>'tbBerat', 'name'=>'tbBerat', 'class'=> 'form-control'], $berat); 
+									?>
+								</div>
+							</div>
+							</div>
+							<br>
+							
+							<div class= 'row'>
+							<div class = 'col-md-12 col-xs-12 col-sm-12'>
+								<div class = 'col-md-2'>
 									<label for='detBrand' class='control-label'>Status</label>
 								</div>
 								<div class = 'col-md-10'>

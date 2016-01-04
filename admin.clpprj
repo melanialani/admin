@@ -5,6 +5,7 @@
 		<file name="C:\xampp\htdocs\admin\application\controllers\admin.php"/>
 		<file name="C:\xampp\htdocs\admin\application\models\model_reports.php"/>
 		<file name="C:\xampp\htdocs\admin\application\views\masters\master_voucher.php"/>
+		<file name="C:\xampp\htdocs\admin\application\views\reports\kota_order.php"/>
 	</lastopfiles>
 	<errors version="5.3">
 		<errfile name="C:\xampp\htdocs\admin\application\views\reports\populer_dilihat.php">
@@ -94,10 +95,10 @@
 			<error val="33;78;36;78;2001;1;"/>
 			<error val="81;78;84;78;2001;1;"/>
 			<error val="84;78;127;78;2002;1;"/>
-			<error val="49;120;80;120;2002;1;"/>
-			<error val="46;120;49;120;2001;1;"/>
-			<error val="82;120;85;120;2001;1;"/>
-			<error val="85;120;116;120;2002;1;"/>
+			<error val="49;108;80;108;2002;1;"/>
+			<error val="46;108;49;108;2001;1;"/>
+			<error val="82;108;85;108;2001;1;"/>
+			<error val="85;108;116;108;2002;1;"/>
 		</errfile>
 	</errors>
 	<codestructure version="5.0">
@@ -146,119 +147,119 @@
 			</treenode>
 			<treenode node="SYSDIR;PHP:PHP Word;C:\xampp\htdocs\admin\index.php;f9;175;15;175;;;;vpos;;v;;rtrim(strrchr(trim(BASEPATH, '/';;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="Admin;PHP:Class Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f0;32;1;710;;;;vpos;;vCI_Controller;;c;;r&#xA;Description&#xA;     Created by: Melania Laniwati at: 8 December 2015;;d34,32;;b0,0;;m">
-				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;39;2;54;;;;vpos;;v;;r&#xA;Description&#xA;     loads any helpers, libraries, and models needed;;d30,39;;b1,0;;m">
+			<treenode node="Admin;PHP:Class Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f0;32;1;720;;;;vpos;;vCI_Controller;;c;;r&#xA;Description&#xA;     Created by: Melania Laniwati at: 8 December 2015;;d34,32;;b0,0;;m">
+				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;39;2;55;;;;vpos;;v;;r&#xA;Description&#xA;     loads any helpers, libraries, and models needed;;d30,39;;b1,0;;m">
 					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f2;42;7;42;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="dashboard;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;143;2;167;;;;vpos;;v;;r&#xA;Description&#xA;     controls admin's homepage -- called dashboard;;d28,143;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;147;8;147;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="dashboard;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;147;2;173;;;;vpos;;v;;r&#xA;Description&#xA;     controls admin's homepage -- called dashboard;;d28,147;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;151;8;151;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;145;11;145;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="index;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;61;2;63;;;;vpos;;v;;r&#xA;Description&#xA;     calls the default page (should be login);;d24,61;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f2;62;7;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;149;11;149;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="laporanDibeli;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;558;2;610;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report populer_dibeli Shows top 10 items that are most ordered;;d32,558;;b1,0;;m">
-					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;589;10;589;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;561;8;561;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;560;11;560;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="index;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;62;2;64;;;;vpos;;v;;r&#xA;Description&#xA;     calls the default page (should be login);;d24,62;;b1,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f2;63;7;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="laporanDilihat;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;498;2;550;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report populer_dilihat Shows top 10 items that are most viewed;;d33,498;;b1,0;;m">
-					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;529;10;529;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="laporanDibeli;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;568;2;620;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report populer_dibeli Shows top 10 items that are most ordered;;d32,568;;b1,0;;m">
+					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;599;10;599;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;501;8;501;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;571;8;571;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;500;11;500;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="laporanPemasukan;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;618;2;709;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report pemasukan Shows how much money you get for month x or year y;;d35,618;;b1,0;;m">
-					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;680;10;680;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f9;637;14;637;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="datatable;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f4;624;14;624;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="i;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f9;635;11;635;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;620;11;620;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;570;11;570;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="laporanTransaksi;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;378;2;430;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report kota_order Shows how many order (transaction) for city x;;d35,378;;b1,0;;m">
-					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;409;10;409;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="laporanDilihat;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;508;2;560;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report populer_dilihat Shows top 10 items that are most viewed;;d33,508;;b1,0;;m">
+					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;539;10;539;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;381;8;381;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;511;8;511;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;380;11;380;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="laporanUser;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;438;2;490;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report kota_user Shows how many users in city x;;d30,438;;b1,0;;m">
-					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;469;10;469;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;441;8;441;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;440;11;440;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;510;11;510;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="login;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;70;2;136;;;;vpos;;v;;r&#xA;Description&#xA;     controls admin's login page;;d24,70;;b1,0;;m">
-					<treenode node="adaDiDatabase;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;90;17;90;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="laporanPemasukan;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;628;2;719;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report pemasukan Shows how much money you get for month x or year y;;d35,628;;b1,0;;m">
+					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;690;10;690;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="cookie;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f5;105;12;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f9;647;14;647;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f2;75;7;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="datatable;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f4;634;14;634;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="i;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;91;10;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="i;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f9;645;11;645;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="info;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f4;114;9;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="result;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;88;10;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f22;81;27;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;630;11;630;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="masterBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;312;2;330;;;;vpos;;v;;r;;d31,312;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;316;8;316;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="laporanTransaksi;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;388;2;440;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report kota_order Shows how many order (transaction) for city x;;d35,388;;b1,0;;m">
+					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;419;10;419;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;314;11;314;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;391;8;391;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-				</treenode>
-				<treenode node="masterKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;332;2;350;;;;vpos;;v;;r;;d33,332;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;336;8;336;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;334;11;334;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;390;11;390;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="masterOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;352;2;370;;;;vpos;;v;;r;;d30,352;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;356;8;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="laporanUser;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;448;2;500;;;;vpos;;v;;r&#xA;Description&#xA;     Controls report kota_user Shows how many users in city x;;d30,448;;b1,0;;m">
+					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;479;10;479;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;354;11;354;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;451;8;451;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-				</treenode>
-				<treenode node="masterUser;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;174;2;209;;;;vpos;;v;;r&#xA;Description&#xA;     Controls master user;;d29,174;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;179;8;179;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;176;11;176;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;450;11;450;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="masterVoucher;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;216;2;260;;;;vpos;;v;;r&#xA;Description&#xA;     Controls master voucher;;d32,216;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;221;8;221;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="login;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;71;2;140;;;;vpos;;v;;r&#xA;Description&#xA;     controls admin's login page;;d24,71;;b1,0;;m">
+					<treenode node="adaDiDatabase;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;91;17;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;218;11;218;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="cookie;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f5;106;12;106;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f2;76;7;76;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="i;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;92;10;92;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="info;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f4;115;9;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="result;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;89;10;89;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f22;82;27;82;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="updateVoucher;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;262;2;310;;;;vpos;;v;;r;;d42,262;;b1,0;;mid;;p">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f4;269;9;269;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="masterBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;318;2;338;;;;vpos;;v;;r;;d31,318;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;322;8;322;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="dataVoucher;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f4;285;16;285;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;320;11;320;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f31;262;34;262;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="masterKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;340;2;359;;;;vpos;;v;;r;;d33,340;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;344;8;344;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;264;11;264;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;342;11;342;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="masterOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;361;2;380;;;;vpos;;v;;r;;d30,361;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;365;8;365;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;363;11;363;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="masterUser;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;180;2;215;;;;vpos;;v;;r&#xA;Description&#xA;     Controls master user;;d29,180;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;185;8;185;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;182;11;182;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="masterVoucher;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;222;2;266;;;;vpos;;v;;r&#xA;Description&#xA;     Controls master voucher;;d32,222;;b1,0;;m">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f3;227;8;227;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;224;11;224;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+				</treenode>
+				<treenode node="updateVoucher;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f8;268;2;316;;;;vpos;;v;;r;;d42,268;;b1,0;;mid;;p">
+					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f4;275;9;275;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="dataVoucher;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f4;291;16;291;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f31;268;34;268;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\admin.php;f6;270;11;270;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -574,584 +575,186 @@
 				<treenode node="strokeWidth;PHP:Var Name;C:\xampp\htdocs\admin\application\libraries\gcharts\configs\backgroundColor.php;f11;29;23;29;;;;vposint;;v;;r;;d-1,-1;;b1,0;;m">
 				</treenode>
 			</treenode>
-			<treenode node="Barang;PHP:Class Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f0;14;1;627;;;;vpos;;vCI_Controller;;c;;r&#xA;Description&#xA;     Created by: Nancy Yonata Created at: 8 December 2015;;d34,14;;b0,0;;m">
+			<treenode node="Barang;PHP:Class Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f0;14;1;683;;;;vpos;;vCI_Controller;;c;;r&#xA;Description&#xA;     Created by: Nancy Yonata Created at: 8 December 2015;;d34,14;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;15;2;20;;;;vpos;;v;;r;;d30,15;;b1,0;;m">
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;17;7;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="ajax_detailOrderBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;297;2;317;;;;vpos;;v;;r;;d59,297;;b1,0;;mselected_horderId;;p">
+					<treenode node="selected_horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f40;297;58;297;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ajax_barang;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;235;2;255;;;;vpos;;v;;r;;d30,235;;b1,0;;m">
-					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;236;17;236;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="allDataBarang;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;247;16;247;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="column;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;237;10;237;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;244;8;244;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;238;10;238;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="output;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;249;15;249;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;245;8;245;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;244;16;244;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="ajax_logOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;275;2;295;;;;vpos;;v;;r;;d32,275;;b1,0;;m">
+				</treenode>
+				<treenode node="changeStatusOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;663;2;665;;;;vpos;;v;;r;;d36,663;;b1,0;;m">
+				</treenode>
+				<treenode node="delete_logOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;667;2;680;;;;vpos;;v;;r;;d37,667;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f33;667;36;667;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ajax_detailOrderBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;322;2;342;;;;vpos;;v;;r;;d59,322;;b1,0;;mselected_horderId;;p">
-					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;323;17;323;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="allDataDetailOrder;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;334;21;334;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="column;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;324;10;324;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;331;8;331;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;325;10;325;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="output;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;336;15;336;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="selected_horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f40;322;58;322;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;332;8;332;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;331;16;331;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="edit_detailOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;543;2;556;;;;vpos;;v;;r;;d35,543;;b1,0;;m">
+				</treenode>
+				<treenode node="edit_DOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;558;2;571;;;;vpos;;v;;r;;d40,558;;b1,0;;mid_dorder;;p">
+					<treenode node="id_dorder;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f29;558;39;558;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ajax_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;256;2;276;;;;vpos;;v;;r;;d32,256;;b1,0;;m">
-					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;257;17;257;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="allDataKategori;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;268;18;268;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="column;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;258;10;258;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;265;8;265;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;259;10;259;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="output;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;270;15;270;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;266;8;266;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;265;16;265;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="edit_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;351;2;366;;;;vpos;;v;;r;;d44,351;;b1,0;;mid_kategori;;p">
+					<treenode node="id_kategori;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f31;351;43;351;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ajax_logOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;300;2;320;;;;vpos;;v;;r;;d32,300;;b1,0;;m">
-					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;301;17;301;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="allDataLogOrder;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;312;18;312;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="column;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;302;10;302;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;309;8;309;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;303;10;303;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="output;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;314;15;314;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;310;8;310;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;309;16;309;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="edit_order;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;527;2;541;;;;vpos;;v;;r;;d39,527;;b1,0;;mhorder_id;;p">
+					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f28;527;38;527;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="ajax_order;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;278;2;298;;;;vpos;;v;;r;;d29,278;;b1,0;;m">
-					<treenode node="_POST;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;279;17;279;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="allDataOrder;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;290;15;290;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="column;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;280;10;280;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;287;8;287;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;281;10;281;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="output;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;292;15;292;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;288;8;288;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f11;287;16;287;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="editBarangStep1;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;128;2;178;;;;vpos;;v;;r;;d34,128;;b1,0;;m">
+				</treenode>
+				<treenode node="editBarangStep2;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;379;2;460;;;;vpos;;v;;r;;d34,379;;b1,0;;m">
+				</treenode>
+				<treenode node="EditStatus_order;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;645;2;661;;;;vpos;;v;;r;;d44,645;;b1,0;;mhorderId;;p">
+					<treenode node="horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f34;645;43;645;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="changeStatusOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;613;2;615;;;;vpos;;v;;r;;d36,613;;b1,0;;m">
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;614;12;614;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f15;614;20;614;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="index;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;22;2;42;;;;vpos;;v;;r;;d24,22;;b1,0;;m">
 				</treenode>
-				<treenode node="delete_logOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;617;2;624;;;;vpos;;v;;r;;d37,617;;b1,0;;mid;;p">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;619;7;619;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f33;617;36;617;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;618;7;618;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="insertDetailBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;90;2;126;;;;vpos;;v;;r;;d37,90;;b1,0;;m">
 				</treenode>
-				<treenode node="edit_detailOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;514;2;522;;;;vpos;;v;;r;;d35,514;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;516;7;516;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f29;518;34;518;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="insertDetailGambar;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;181;2;273;;;;vpos;;v;;r;;d37,181;;b1,0;;m">
 				</treenode>
-				<treenode node="edit_DOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;524;2;532;;;;vpos;;v;;r;;d40,524;;b1,0;;mid_dorder;;p">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;525;7;525;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id_dorder;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f29;524;39;524;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f27;527;32;527;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="insertKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;79;2;88;;;;vpos;;v;;r;;d33,79;;b1,0;;m">
 				</treenode>
-				<treenode node="edit_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;365;2;373;;;;vpos;;v;;r;;d44,365;;b1,0;;mid_kategori;;p">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;366;7;366;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id_kategori;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f31;365;43;365;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f26;368;31;368;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="list_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;334;2;349;;;;vpos;;v;;r;;d32,334;;b1,0;;m">
 				</treenode>
-				<treenode node="edit_order;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;502;2;512;;;;vpos;;v;;r;;d39,502;;b1,0;;mhorder_id;;p">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;504;7;504;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f28;502;38;502;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f23;506;28;506;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="listLogOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;513;2;525;;;;vpos;;v;;r;;d31,513;;b1,0;;m">
 				</treenode>
-				<treenode node="editBarangStep1;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;102;2;144;;;;vpos;;v;;r;;d34,102;;b1,0;;m">
-					<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;104;8;104;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;126;8;126;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="deskripsi;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;105;12;105;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="detail;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;109;9;109;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="diskon;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;108;9;108;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="garansi;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;110;10;110;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;107;6;107;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id_barang;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;112;12;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;103;7;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;111;9;111;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="stock;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;106;8;106;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f10;103;15;103;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="listOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;495;2;511;;;;vpos;;v;;r;;d28,495;;b1,0;;m">
 				</treenode>
-				<treenode node="editBarangStep2;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;386;2;458;;;;vpos;;v;;r;;d34,386;;b1,0;;m">
-					<treenode node="_FILES;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f6;402;13;402;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="arrGambar;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;390;12;390;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="arrWarna;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;393;11;393;;;;vposarray;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;441;8;441;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;395;9;395;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;452;7;452;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="desk;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;442;7;442;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="det;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;446;6;446;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="diskon;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;445;9;445;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="gambar;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;389;9;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="garansi;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;447;10;447;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="gbr1;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;425;7;425;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="harga;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;444;8;444;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="i;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f6;400;8;400;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;388;5;388;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kumpulanGambar;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;423;17;423;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kumpulanWarna;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;424;16;424;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;440;7;440;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;448;9;448;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="stok;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;443;7;443;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;388;13;388;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="warna;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;392;8;392;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="warnaBrg;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;408;12;408;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="page_insert_barang;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;44;2;63;;;;vpos;;v;;r;;d37,44;;b1,0;;m">
 				</treenode>
-				<treenode node="EditStatus_order;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;601;2;611;;;;vpos;;v;;r;;d44,601;;b1,0;;mhorderId;;p">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;602;7;602;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f34;601;43;601;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;604;9;604;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f12;604;17;604;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="page_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;65;2;77;;;;vpos;;v;;r;;d32,65;;b1,0;;m">
 				</treenode>
-				<treenode node="index;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;22;2;31;;;;vpos;;v;;r;;d24,22;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;24;7;24;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;27;7;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="saveEditHOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;573;2;614;;;;vpos;;v;;r;;d33,573;;b1,0;;m">
 				</treenode>
-				<treenode node="insertDetailBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;70;2;100;;;;vpos;;v;;r;;d37,70;;b1,0;;m">
-					<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;72;8;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;93;7;93;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="deskripsi;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;73;12;73;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="detail;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;79;9;79;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="diskon;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;76;9;76;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="garansi;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;80;10;80;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;75;6;75;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kategori_id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;78;14;78;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;71;7;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="namaKategori;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;77;15;77;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="stock;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;74;8;74;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f10;71;15;71;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="tambahGambar;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;462;2;493;;;;vpos;;v;;r;;d31,462;;b1,0;;m">
 				</treenode>
-				<treenode node="insertDetailGambar;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;147;2;233;;;;vpos;;v;;r;;d37,147;;b1,0;;m">
-					<treenode node="_FILES;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f5;155;12;155;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="arrFileName;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;153;14;153;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="arrWarna;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;154;11;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;206;8;206;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;149;9;149;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;216;7;216;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="desk;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;207;7;207;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="detBrg;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;212;9;212;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="disk;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;210;7;210;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="garansi;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;213;10;213;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;209;6;209;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="i;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f6;192;8;192;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="idKategori;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;211;13;211;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="item;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f26;158;31;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kumpulanFileName;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;189;19;189;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kumpulanWarna;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;190;16;190;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;205;7;205;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="resultGbr1;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;157;14;157;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="resultGbr2;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;169;14;169;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="resultGbr3;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f3;180;14;180;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="stock;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;208;8;208;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;151;7;151;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f35;158;41;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="update_dOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;616;2;643;;;;vpos;;v;;r;;d32,616;;b1,0;;m">
 				</treenode>
-				<treenode node="insertKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;59;2;68;;;;vpos;;v;;r;;d33,59;;b1,0;;m">
-					<treenode node="berhasil;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;64;11;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="fd;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;62;5;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;61;7;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;63;9;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f10;61;15;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
+				<treenode node="update_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;368;2;376;;;;vpos;;v;;r;;d34,368;;b1,0;;m">
 				</treenode>
-				<treenode node="list_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;356;2;363;;;;vpos;;v;;r;;d32,356;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;357;7;357;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;360;7;360;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="listLogOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;494;2;500;;;;vpos;;v;;r;;d31,494;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;495;7;495;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;497;7;497;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="listOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;486;2;492;;;;vpos;;v;;r;;d28,486;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;487;7;487;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;489;7;489;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="page_insert_barang;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;33;2;48;;;;vpos;;v;;r;;d37,33;;b1,0;;m">
-					<treenode node="arr;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;34;6;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;40;7;40;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kategori;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;35;11;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="row;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f24;36;28;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f14;35;19;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="page_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;50;2;57;;;;vpos;;v;;r;;d32,50;;b1,0;;m">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;51;7;51;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;54;7;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="saveEditHOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;534;2;577;;;;vpos;;v;;r;;d33,534;;b1,0;;m">
-					<treenode node="alamat;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;539;9;539;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="caraJNE;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;546;10;546;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;535;7;535;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="grand;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;544;8;544;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;537;12;537;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="hrgJNE;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;545;9;545;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kodeBayar;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;549;12;549;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kodeJNE;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;547;10;547;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kota;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;540;7;540;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="penerima;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;541;11;541;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="tglCreate;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;550;12;550;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="tglUpdate;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;551;12;551;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f15;537;20;537;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="tipeBayar;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;548;12;548;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="total;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;542;8;542;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="user;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;538;7;538;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="voucher;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;543;10;543;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="tambahGambar;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;460;2;484;;;;vpos;;v;;r;;d31,460;;b1,0;;m">
-					<treenode node="config;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;464;9;464;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;477;7;477;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="gbr;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f4;472;8;472;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;461;5;461;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="item;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f24;470;29;470;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="resultGbr;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;469;12;469;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;461;13;461;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="value;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f33;470;39;470;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="warna;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;462;8;462;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="update_dOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;579;2;599;;;;vpos;;v;;r;;d32,579;;b1,0;;m">
-					<treenode node="barangId;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;582;11;582;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;590;7;590;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;581;11;581;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;585;6;585;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="idDOrder;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;580;11;580;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="ket;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;583;6;583;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="qty;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;584;6;584;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;587;9;587;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="subtot;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;586;9;586;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f14;580;19;580;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="update_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;375;2;383;;;;vpos;;v;;r;;d34,375;;b1,0;;m">
-					<treenode node="det;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;378;6;378;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;376;5;376;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;377;7;377;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;379;9;379;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;376;13;376;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="view_detail;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;344;2;354;;;;vpos;;v;;r;;d40,344;;b1,0;;mid_barang;;p">
-					<treenode node="data;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f2;346;7;346;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id_barang;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f29;344;39;344;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f20;347;25;347;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="view_detail;PHP:Function Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f8;319;2;332;;;;vpos;;v;;r;;d40,319;;b1,0;;mid_barang;;p">
+					<treenode node="id_barang;PHP:Var Name;C:\xampp\htdocs\admin\application\controllers\barang.php;f29;319;39;319;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
-			<treenode node="Barang_model;PHP:Class Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f0;12;1;453;;;;vpos;;vCI_Model;;c;;r&#xA;Description&#xA;     Created by: Nancy Yonata Created at: 8 December 2015;;d35,12;;b0,0;;m">
+			<treenode node="Barang_model;PHP:Class Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f0;12;1;460;;;;vpos;;vCI_Model;;c;;r&#xA;Description&#xA;     Created by: Nancy Yonata Created at: 8 December 2015;;d35,12;;b0,0;;m">
 				<treenode node="__construct;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;13;2;16;;;;vpos;;v;;r;;d30,13;;b1,0;;m">
 				</treenode>
 				<treenode node="allKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;29;2;35;;;;vpos;;v;;r;;d30,29;;b1,0;;m">
 				</treenode>
-				<treenode node="changeOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;405;5;414;;;;vpos;;v;;r;;d47,405;;b1,0;;mhorder_id;;pto;;p">
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;405;42;405;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="changeOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;412;5;421;;;;vpos;;v;;r;;d47,412;;b1,0;;mhorder_id;;pto;;p">
+					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;412;42;412;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="to;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f43;405;46;405;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="changeOrderToCancel;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;441;5;445;;;;vpos;;v;;r;;d51,441;;b1,0;;mhorder_id;;p">
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f40;441;50;441;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="to;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f43;412;46;412;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="changeOrderToFinishPayment;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;422;5;431;;;;vpos;;v;;r;;d89,422;;b1,0;;mhorder_id;;ptransaction_id;;ppayment_type;;p">
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f47;422;57;422;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="payment_type;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f75;422;88;422;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="transaction_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f59;422;74;422;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="changeOrderToCancel;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;448;5;452;;;;vpos;;v;;r;;d51,448;;b1,0;;mhorder_id;;p">
+					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f40;448;50;448;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="changeOrderToPending;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;416;5;421;;;;vpos;;v;;r;;d52,416;;b1,0;;mhorder_id;;p">
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f41;416;51;416;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="changeOrderToFinishPayment;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;429;5;438;;;;vpos;;v;;r;;d89,429;;b1,0;;mhorder_id;;ptransaction_id;;ppayment_type;;p">
+					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f47;429;57;429;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="payment_type;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f75;429;88;429;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="transaction_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f59;429;74;429;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="changeOrderToProblem;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;446;5;450;;;;vpos;;v;;r;;d52,446;;b1,0;;mhorder_id;;p">
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f41;446;51;446;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="changeOrderToPending;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;423;5;428;;;;vpos;;v;;r;;d52,423;;b1,0;;mhorder_id;;p">
+					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f41;423;51;423;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="changeOrderToSent;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;432;5;440;;;;vpos;;v;;r;;d60,432;;b1,0;;mhorder_id;;pkode_jne;;p">
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f38;432;48;432;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kode_jne;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f50;432;59;432;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="changeOrderToProblem;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;453;5;457;;;;vpos;;v;;r;;d52,453;;b1,0;;mhorder_id;;p">
+					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f41;453;51;453;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="countAll;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;169;5;173;;;;vpos;;v;;r;;d28,169;;b1,0;;m">
-				</treenode>
-				<treenode node="countAllDOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;347;2;352;;;;vpos;;v;;r;;d51,347;;b1,0;;mselected_horderId;;p">
-					<treenode node="selected_horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;347;50;347;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="changeOrderToSent;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f11;439;5;447;;;;vpos;;v;;r;;d60,439;;b1,0;;mhorder_id;;pkode_jne;;p">
+					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f38;439;48;439;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="kode_jne;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f50;439;59;439;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="countAllKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;175;5;179;;;;vpos;;v;;r;;d36,175;;b1,0;;m">
+				<treenode node="countAll;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;116;5;120;;;;vpos;;v;;r;;d28,116;;b1,0;;m">
 				</treenode>
-				<treenode node="countAllLogOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;187;5;191;;;;vpos;;v;;r;;d36,187;;b1,0;;m">
-				</treenode>
-				<treenode node="countAllOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;181;5;185;;;;vpos;;v;;r;;d33,181;;b1,0;;m">
-				</treenode>
-				<treenode node="get_detailBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;193;2;199;;;;vpos;;v;;r;;d45,193;;b1,0;;mid_barang;;p">
-					<treenode node="id_barang;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f34;193;44;193;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="countAllDOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;355;2;360;;;;vpos;;v;;r;;d51,355;;b1,0;;mselected_horderId;;p">
+					<treenode node="selected_horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;355;50;355;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="get_gambarBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;201;2;207;;;;vpos;;v;;r;;d38,201;;b1,0;;mid;;p">
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f34;201;37;201;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="countAllKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;122;5;126;;;;vpos;;v;;r;;d36,122;;b1,0;;m">
+				</treenode>
+				<treenode node="countAllLogOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;134;5;138;;;;vpos;;v;;r;;d36,134;;b1,0;;m">
+				</treenode>
+				<treenode node="countAllOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;128;5;132;;;;vpos;;v;;r;;d33,128;;b1,0;;m">
+				</treenode>
+				<treenode node="countAllTodayOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;140;5;144;;;;vpos;;v;;r;;d37,140;;b1,0;;m">
+				</treenode>
+				<treenode node="get_detailBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;146;2;152;;;;vpos;;v;;r;;d45,146;;b1,0;;mid_barang;;p">
+					<treenode node="id_barang;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f34;146;44;146;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="get_warnaBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;209;2;215;;;;vpos;;v;;r;;d37,209;;b1,0;;mid;;p">
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;209;36;209;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="get_gambarBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;154;2;160;;;;vpos;;v;;r;;d38,154;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f34;154;37;154;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getAllDataBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;64;2;89;;;;vpos;;v;;r;;d57,64;;b1,0;;morders;;plimit;;pstart;;p">
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f42;64;48;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f34;64;41;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f50;64;56;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="get_warnaBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;162;2;168;;;;vpos;;v;;r;;d37,162;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;162;36;162;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getAllDataKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;91;2;114;;;;vpos;;v;;r;;d60,91;;b1,0;;morders;;plimit;;pstart;;p">
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f45;91;51;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getAllDataBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;64;2;70;;;;vpos;;v;;r;;d35,64;;b1,0;;m">
+				</treenode>
+				<treenode node="getAllDataKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;72;2;78;;;;vpos;;v;;r;;d37,72;;b1,0;;m">
+				</treenode>
+				<treenode node="getDataDetailOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;250;2;270;;;;vpos;;v;;r;;d80,250;;b1,0;;mselected_horderId;;porders;;plimit;;pstart;;p">
+					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f65;250;71;250;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f36;91;43;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f56;250;63;250;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f53;91;59;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="selected_horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f36;250;54;250;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f73;250;79;250;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getDataDetailOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;318;2;337;;;;vpos;;v;;r;;d80,318;;b1,0;;mselected_horderId;;porders;;plimit;;pstart;;p">
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f65;318;71;318;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f56;318;63;318;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="selected_horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f36;318;54;318;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f73;318;79;318;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getDataDOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;347;2;353;;;;vpos;;v;;r;;d42,347;;b1,0;;mid_dorder;;p">
+					<treenode node="id_dorder;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f31;347;41;347;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getDataDOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;339;2;345;;;;vpos;;v;;r;;d42,339;;b1,0;;mid_dorder;;p">
-					<treenode node="id_dorder;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f31;339;41;339;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getDataHorder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;80;2;86;;;;vpos;;v;;r;;d32,80;;b1,0;;m">
+				</treenode>
+				<treenode node="getDataKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;213;2;219;;;;vpos;;v;;r;;d46,213;;b1,0;;mid_kategori;;p">
+					<treenode node="id_kategori;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;213;45;213;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getDataHorder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;116;2;138;;;;vpos;;v;;r;;d55,116;;b1,0;;morders;;plimit;;pstart;;p">
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f40;116;46;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getDataLogOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;88;2;114;;;;vpos;;v;;r;;d57,88;;b1,0;;morders;;plimit;;pstart;;p">
+					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f42;88;48;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f31;116;38;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;88;40;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f48;116;54;116;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="getDataKategori;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;259;2;265;;;;vpos;;v;;r;;d46,259;;b1,0;;mid_kategori;;p">
-					<treenode node="id_kategori;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;259;45;259;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f50;88;56;88;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getDataLogOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;140;2;166;;;;vpos;;v;;r;;d57,140;;b1,0;;morders;;plimit;;pstart;;p">
-					<treenode node="limit;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f42;140;48;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="orders;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;140;40;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="start;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f50;140;56;140;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getDataOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;234;2;240;;;;vpos;;v;;r;;d41,234;;b1,0;;mhorder_id;;p">
+					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f30;234;40;234;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getDataOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;280;2;286;;;;vpos;;v;;r;;d41,280;;b1,0;;mhorder_id;;p">
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f30;280;40;280;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="getDetailOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;288;2;294;;;;vpos;;v;;r;;d36,288;;b1,0;;mid;;p">
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;288;35;288;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getDetailOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;242;2;248;;;;vpos;;v;;r;;d36,242;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;242;35;242;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 				<treenode node="getKategoriId;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;37;2;43;;;;vpos;;v;;r;;d45,37;;b1,0;;mnamaKategori;;p">
 					<treenode node="namaKategori;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f31;37;44;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="getStatusOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;371;2;377;;;;vpos;;v;;r;;d42,371;;b1,0;;mhorderId;;p">
-					<treenode node="horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;371;41;371;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="getStatusOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;376;2;382;;;;vpos;;v;;r;;d42,376;;b1,0;;mhorderId;;p">
+					<treenode node="horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;376;41;376;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
+				</treenode>
+				<treenode node="getTodayOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;336;2;345;;;;vpos;;v;;r;;d32,336;;b1,0;;m">
 				</treenode>
 				<treenode node="insertBarangBaru;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;45;2;62;;;;vpos;;v;;r;;d143,45;;b1,0;;mnama;;pbrand;;pdesk;;pstock;;phrg;;pdisk;;pidKategori;;pdetBrg;;pgaransi;;pkumpulanFileName;;pkumpulanWarna;;p">
 					<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f41;45;47;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
@@ -1185,130 +788,104 @@
 					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f44;18;51;18;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="insertLog;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f9;399;5;403;;;;vpos;;v;;r;;d48,399;;b1,0;;mhorder_id;;pstatus;;p">
-					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f28;399;38;399;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="insertLog;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f9;406;5;410;;;;vpos;;v;;r;;d48,406;;b1,0;;mhorder_id;;pstatus;;p">
+					<treenode node="horder_id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f28;406;38;406;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f40;399;47;399;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-				</treenode>
-				<treenode node="logOrder_delete;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;379;2;382;;;;vpos;;v;;r;;d37,379;;b1,0;;mid;;p">
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;379;36;379;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f40;406;47;406;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="saveEditHOrder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;296;2;316;;;;vpos;;v;;r;;d173,296;;b1,0;;mid;;puser;;palamat;;pkota;;ppenerima;;ptotal;;pvoucher;;pgrand;;phrgJNE;;pcaraJNE;;pkodeJNE;;ptipeBayar;;pkodeBayar;;ptglCreate;;ptglUpdate;;p">
-					<treenode node="alamat;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f44;296;51;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="caraJNE;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f106;296;114;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="grand;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f89;296;95;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="hrgJNE;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f97;296;104;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;296;35;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kodeBayar;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f138;296;148;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kodeJNE;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f116;296;124;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="kota;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f53;296;58;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="penerima;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f60;296;69;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="tglCreate;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f150;296;160;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="tglUpdate;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f162;296;172;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="tipeBayar;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f126;296;136;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="total;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f71;296;77;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="user;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f37;296;42;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="voucher;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f79;296;87;296;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="logOrder_delete;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;384;2;387;;;;vpos;;v;;r;;d37,384;;b1,0;;mid;;p">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;384;36;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="tambahGambarBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;238;2;257;;;;vpos;;v;;r;;d54,238;;b1,0;;mid;;pgbr;;pwarna;;p">
-					<treenode node="gbr;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f41;238;45;238;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="setDataOrderHariIni;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;272;2;334;;;;vpos;;v;;r;;d38,272;;b1,0;;m">
+				</treenode>
+				<treenode node="tambahGambarBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;192;2;211;;;;vpos;;v;;r;;d54,192;;b1,0;;mid;;pgbr;;pwarna;;p">
+					<treenode node="gbr;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f41;192;45;192;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f36;238;39;238;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f36;192;39;192;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="warna;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f47;238;53;238;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="warna;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f47;192;53;192;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="UbahGambarBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;217;2;236;;;;vpos;;v;;r;;d138,217;;b1,0;;mid;;pnama;;pbrand;;pdesk;;pstok;;pharga;;pdiskon;;pdet;;pgaransi;;pstatus;;pkumpulanGambar;;pkumpulanWarna;;p">
-					<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f45;217;51;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="UbahGambarBarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;170;2;190;;;;vpos;;v;;r;;d144,170;;b1,0;;mid;;pnama;;pbrand;;pdesk;;pstok;;pharga;;pdiskon;;pdet;;pgaransi;;pberat;;pstatus;;pkumpulanGambar;;pkumpulanWarna;;p">
+					<treenode node="berat;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f96;170;102;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="desk;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f53;217;58;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f45;170;51;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="det;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f81;217;85;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="desk;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f53;170;58;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="diskon;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f72;217;79;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="det;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f81;170;85;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="garansi;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f87;217;95;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="diskon;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f72;170;79;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="harga;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f65;217;71;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="garansi;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f87;170;95;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f34;217;37;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="harga;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f65;170;71;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="kumpulanGambar;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f106;217;121;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f34;170;37;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="kumpulanWarna;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f123;217;137;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="kumpulanGambar;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f112;170;127;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f38;217;43;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="kumpulanWarna;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f129;170;143;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f97;217;104;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f38;170;43;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="stok;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f59;217;64;217;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f103;170;110;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-				</treenode>
-				<treenode node="update_dbarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;384;2;397;;;;vpos;;v;;r;;d121,384;;b1,0;;mid_barang;;pnama;;pbrand;;pdeskripsi;;pstock;;phrg;;pdiskon;;pdetail;;pgaransi;;pstatus;;p">
-					<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f51;384;57;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="deskripsi;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f59;384;69;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="detail;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f94;384;101;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="diskon;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f85;384;92;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="garansi;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f103;384;111;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f79;384;83;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="id_barang;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;384;42;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f44;384;49;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f113;384;120;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-					</treenode>
-					<treenode node="stock;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f71;384;77;384;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="stok;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f59;170;64;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="update_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;269;2;278;;;;vpos;;v;;r;;d59,269;;b1,0;;mid;;pnama;;pdet;;pstatus;;p">
-					<treenode node="det;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f45;269;49;269;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="update_dbarang;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;389;2;404;;;;vpos;;v;;r;;d127,389;;b1,0;;mid_barang;;pnama;;pbrand;;pdeskripsi;;pstock;;phrg;;pdiskon;;pdetail;;pgaransi;;pberat;;pstatus;;p">
+					<treenode node="berat;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f112;389;118;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;269;36;269;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f51;389;57;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f38;269;43;269;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="deskripsi;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f59;389;69;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f51;269;58;269;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="detail;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f94;389;101;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="diskon;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f85;389;92;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="garansi;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f103;389;111;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f79;389;83;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="id_barang;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f32;389;42;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f44;389;49;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f119;389;126;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="stock;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f71;389;77;389;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
-				<treenode node="updateDorder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;356;2;369;;;;vpos;;v;;r;;d92,356;;b1,0;;midDOrder;;phorderId;;pbarangId;;pket;;pqty;;phrg;;psubtot;;pstatus;;p">
-					<treenode node="barangId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f51;356;60;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				<treenode node="update_kategori;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;223;2;232;;;;vpos;;v;;r;;d59,223;;b1,0;;mid;;pnama;;pdet;;pstatus;;p">
+					<treenode node="det;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f45;223;49;223;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f40;356;49;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="id;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f33;223;36;223;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f71;356;75;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f38;223;43;223;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="idDOrder;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f30;356;39;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f51;223;58;223;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="ket;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f61;356;65;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="updateDorder;PHP:Function Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f8;362;2;374;;;;vpos;;v;;r;;d92,362;;b1,0;;midDOrder;;phorderId;;pbarangId;;pket;;pqty;;phrg;;psubtot;;pstatus;;p">
+					<treenode node="barangId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f51;362;60;362;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="qty;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f66;356;70;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f40;362;49;362;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f84;356;91;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f71;362;75;362;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
-					<treenode node="subtot;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f76;356;83;356;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="idDOrder;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f30;362;39;362;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="ket;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f61;362;65;362;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="qty;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f66;362;70;362;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f84;362;91;362;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					</treenode>
+					<treenode node="subtot;PHP:Var Name;C:\xampp\htdocs\admin\application\models\barang_model.php;f76;362;83;362;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
 				</treenode>
 			</treenode>
@@ -10408,7 +9985,11 @@
 			</treenode>
 			<treenode node="akhir;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_voucher.php;f97;33;103;33;;C:\xampp\htdocs\admin\application\views\update_voucher.php;f97;33;103;33;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="alamat;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;58;17;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="allDataBarang;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view.php;f24;63;38;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="allDataKategori;PHP:Var Name;C:\xampp\htdocs\admin\application\views\kategori_view.php;f23;61;39;61;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="allDataOrder;PHP:Var Name;C:\xampp\htdocs\admin\application\views\order_view.php;f25;57;38;57;;C:\xampp\htdocs\admin\application\views\dashboard.php;f21;91;34;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="allKategori;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view1.php;f53;165;65;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10428,13 +10009,13 @@
 			</treenode>
 			<treenode node="awal;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_voucher.php;f95;29;100;29;;C:\xampp\htdocs\admin\application\views\update_voucher.php;f95;29;100;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="berat;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;158;16;158;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="BM;PHP:Var Name;C:\xampp\htdocs\admin\system\core\CodeIgniter.php;f1;115;4;115;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="brand;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;52;16;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="browsers;PHP:Var Name;C:\xampp\htdocs\admin\application\config\user_agents.php;f0;49;9;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="cara;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;156;15;156;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="CFG;PHP:Var Name;C:\xampp\htdocs\admin\system\core\CodeIgniter.php;f1;138;5;138;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10454,7 +10035,7 @@
 			</treenode>
 			<treenode node="det;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;127;14;127;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="detail;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f21;35;28;35;;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f20;28;27;28;;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f10;47;17;47;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f10;49;17;49;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="detail;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f21;35;28;35;;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f10;47;17;47;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f10;49;17;49;;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f20;28;27;28;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="detail_dorder;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f20;25;34;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10470,13 +10051,11 @@
 			</treenode>
 			<treenode node="garansi;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;143;18;143;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="grandTot;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;128;19;128;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
 			<treenode node="heading;PHP:Var Name;C:\xampp\htdocs\admin\application\errors\error_general.php;f17;57;25;57;;C:\xampp\htdocs\admin\application\errors\error_db.php;f17;57;25;57;;C:\xampp\htdocs\admin\application\errors\error_404.php;f17;57;25;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="horderId;PHP:Var Name;C:\xampp\htdocs\admin\application\views\changeStatusOrder_view.php;f46;23;55;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;97;14;97;;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f10;87;14;87;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="hrg;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f10;87;14;87;;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;97;14;97;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="i;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f13;46;15;46;;C:\xampp\htdocs\admin\application\views\reports\pemasukan.php;f9;34;11;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10489,12 +10068,6 @@
 			<treenode node="isiTabel;PHP:Var Name;C:\xampp\htdocs\admin\application\views\masters\master_user.php;f36;31;45;31;;C:\xampp\htdocs\admin\application\views\masters\master_voucher.php;f39;31;48;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="ket;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f10;58;14;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="kodeJNE;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;170;18;170;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="kodePemb;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;198;19;198;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="kota;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;72;15;72;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="lang;PHP:Var Name;C:\xampp\htdocs\admin\system\language\english\upload_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\unit_test_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\profiler_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\number_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\migration_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\imglib_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\ftp_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\form_validation_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\email_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\db_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\date_lang.php;f0;2;5;2;;C:\xampp\htdocs\admin\system\language\english\calendar_lang.php;f0;2;5;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10516,15 +10089,13 @@
 			</treenode>
 			<treenode node="month;PHP:Var Name;C:\xampp\htdocs\admin\application\views\reports\pemasukan.php;f53;41;59;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;37;15;37;;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f10;33;15;33;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f10;35;15;35;;C:\xampp\htdocs\admin\application\views\edit_voucher.php;f95;21;100;21;;C:\xampp\htdocs\admin\application\views\update_voucher.php;f95;21;100;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="nama;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f10;33;15;33;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f10;35;15;35;;C:\xampp\htdocs\admin\application\views\edit_voucher.php;f95;21;100;21;;C:\xampp\htdocs\admin\application\views\update_voucher.php;f95;21;100;21;;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;37;15;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="name;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f14;55;19;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="name_warna;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f15;77;26;77;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="OUT;PHP:Var Name;C:\xampp\htdocs\admin\system\core\CodeIgniter.php;f1;186;5;186;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="penerima;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;86;19;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="platforms;PHP:Var Name;C:\xampp\htdocs\admin\application\config\user_agents.php;f0;12;10;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10538,7 +10109,7 @@
 			</treenode>
 			<treenode node="routing;PHP:Var Name;C:\xampp\htdocs\admin\system\core\CodeIgniter.php;f11;176;19;176;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="row;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f32;35;36;35;;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f31;28;35;28;;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f37;25;41;25;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f37;27;41;27;;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f38;25;42;25;;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f34;25;38;25;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="row;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f32;35;36;35;;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f37;25;41;25;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f37;27;41;27;;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f38;25;42;25;;C:\xampp\htdocs\admin\application\views\order_view.php;f42;57;46;57;;C:\xampp\htdocs\admin\application\views\kategori_view.php;f43;61;47;61;;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f34;25;38;25;;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f31;28;35;28;;C:\xampp\htdocs\admin\application\views\barang_view.php;f42;63;46;63;;C:\xampp\htdocs\admin\application\views\dashboard.php;f38;91;42;91;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="RTR;PHP:Var Name;C:\xampp\htdocs\admin\system\core\CodeIgniter.php;f1;172;5;172;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10548,7 +10119,7 @@
 			</treenode>
 			<treenode node="smileys;PHP:Var Name;C:\xampp\htdocs\admin\application\config\smileys.php;f0;14;8;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;158;17;158;;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f10;61;17;61;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f10;63;17;63;;C:\xampp\htdocs\admin\application\views\edit_voucher.php;f117;37;124;37;;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f10;116;17;116;;C:\xampp\htdocs\admin\application\views\update_voucher.php;f117;37;124;37;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="status;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f10;61;17;61;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f10;63;17;63;;C:\xampp\htdocs\admin\application\views\edit_voucher.php;f117;37;124;37;;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f10;116;17;116;;C:\xampp\htdocs\admin\application\views\update_voucher.php;f117;37;124;37;;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f10;173;17;173;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="statusOrder;PHP:Var Name;C:\xampp\htdocs\admin\application\views\changeStatusOrder_view.php;f8;26;20;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10562,19 +10133,9 @@
 			</treenode>
 			<treenode node="tabelVoucher;PHP:Var Name;C:\xampp\htdocs\admin\application\views\masters\master_voucher.php;f22;31;35;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="tarif;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;142;16;142;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f7;103;12;103;;C:\xampp\htdocs\admin\application\views\reports\kota_user.php;f8;15;13;15;;C:\xampp\htdocs\admin\application\views\reports\populer_dilihat.php;f8;15;13;15;;C:\xampp\htdocs\admin\application\views\reports\populer_dibeli.php;f8;15;13;15;;C:\xampp\htdocs\admin\application\views\reports\pemasukan.php;f9;51;14;51;;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f7;311;12;311;;C:\xampp\htdocs\admin\application\views\reports\kota_order.php;f8;15;13;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="tglCreate;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;212;20;212;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="tglUpdate;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;226;20;226;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="this;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f7;103;12;103;;C:\xampp\htdocs\admin\application\views\reports\kota_order.php;f8;15;13;15;;C:\xampp\htdocs\admin\application\views\reports\kota_user.php;f8;15;13;15;;C:\xampp\htdocs\admin\application\views\reports\populer_dilihat.php;f8;15;13;15;;C:\xampp\htdocs\admin\application\views\reports\populer_dibeli.php;f8;15;13;15;;C:\xampp\htdocs\admin\application\views\reports\pemasukan.php;f9;51;14;51;;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f7;307;12;307;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="tipePemb;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;184;19;184;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="title;PHP:Var Name;C:\xampp\htdocs\admin\application\views\includes\header.php;f19;46;25;46;;C:\xampp\htdocs\admin\application\views\order_view.php;f34;14;40;14;;C:\xampp\htdocs\admin\application\views\logOrder_view.php;f34;14;40;14;;C:\xampp\htdocs\admin\application\views\kategori_view.php;f33;17;39;17;;C:\xampp\htdocs\admin\application\views\edit_detailOrder_view.php;f34;15;40;15;;C:\xampp\htdocs\admin\application\views\changeStatusOrder_view.php;f33;15;39;15;;C:\xampp\htdocs\admin\application\views\barangKategori_view.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\barang_view2.php;f34;18;40;18;;C:\xampp\htdocs\admin\application\views\barang_view1.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\barang_view.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f34;15;40;15;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f34;15;40;15;;C:\xampp\htdocs\admin\application\views\edit_voucher.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\kota_order.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\kota_user.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\populer_dilihat.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\populer_dibeli.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\pemasukan.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f34;14;40;14;;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f34;15;40;15;;C:\xampp\htdocs\admin\application\views\update_voucher.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\masters\master_user.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\dashboard.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\masters\master_voucher.php;f34;5;40;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="total;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;100;16;100;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="title;PHP:Var Name;C:\xampp\htdocs\admin\application\views\logOrder_view.php;f34;14;40;14;;C:\xampp\htdocs\admin\application\views\edit_detailOrder_view.php;f34;15;40;15;;C:\xampp\htdocs\admin\application\views\changeStatusOrder_view.php;f33;15;39;15;;C:\xampp\htdocs\admin\application\views\barangKategori_view.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\barang_view2.php;f34;18;40;18;;C:\xampp\htdocs\admin\application\views\barang_view1.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\edit_kategori_view.php;f34;15;40;15;;C:\xampp\htdocs\admin\application\views\Codelobster0.php;f34;15;40;15;;C:\xampp\htdocs\admin\application\views\edit_voucher.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\kota_user.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\populer_dilihat.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\populer_dibeli.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\pemasukan.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php;f34;14;40;14;;C:\xampp\htdocs\admin\application\views\update_voucher.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\masters\master_user.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\includes\header.php;f19;50;25;50;;C:\xampp\htdocs\admin\application\views\order_view.php;f34;14;40;14;;C:\xampp\htdocs\admin\application\views\kategori_view.php;f33;17;39;17;;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f34;15;40;15;;C:\xampp\htdocs\admin\application\views\barang_view_detail.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\barang_view.php;f34;17;40;17;;C:\xampp\htdocs\admin\application\views\dashboard.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\reports\kota_order.php;f34;5;40;5;;C:\xampp\htdocs\admin\application\views\masters\master_voucher.php;f34;5;40;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="total_item;PHP:Var Name;C:\xampp\htdocs\admin\application\views\dashboard.php;f51;53;62;53;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -10586,11 +10147,7 @@
 			</treenode>
 			<treenode node="URI;PHP:Var Name;C:\xampp\htdocs\admin\system\core\CodeIgniter.php;f1;165;5;165;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="user;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;44;15;44;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
 			<treenode node="username;PHP:Var Name;C:\xampp\htdocs\admin\application\views\includes\navbar.php;f148;5;157;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-			</treenode>
-			<treenode node="voucher;PHP:Var Name;C:\xampp\htdocs\admin\application\views\edit_order_view.php;f10;114;18;114;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="warnaBarang;PHP:Var Name;C:\xampp\htdocs\admin\application\views\barang_view_detail2.php;f9;41;21;41;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -27032,7 +26589,7 @@
 			</treenode>
 			<treenode node="dismiss;JS:JS Var Name;C:\xampp\htdocs\admin\assets\js\bootstrap.js;f6;83;13;83;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\admin\user_guide\nav\prototype.lite.js;f13;40;21;40;;C:\xampp\htdocs\admin\assets\js\html5shiv.min.js;f2535;3;2543;3;;C:\xampp\htdocs\admin\assets\js\bootstrap.js;f4;157;12;157;;C:\xampp\htdocs\admin\assets\js\bootstrap-datepicker.js;f3;1654;11;1654;;C:\xampp\htdocs\admin\assets\datatables\js\jquery.dataTables.min.js;f211;159;219;159;;C:\xampp\htdocs\admin\assets\datatables\js\dataTables.bootstrap.js;f18;12;26;12;;C:\xampp\htdocs\admin\application\views\masters\master_user.php;f4;60;12;60;;C:\xampp\htdocs\admin\application\views\dashboard.php;f4;130;12;130;;C:\xampp\htdocs\admin\application\views\masters\master_voucher.php;f4;52;12;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="document;JS:JS Var Name;C:\xampp\htdocs\admin\user_guide\nav\prototype.lite.js;f13;40;21;40;;C:\xampp\htdocs\admin\assets\js\html5shiv.min.js;f2535;3;2543;3;;C:\xampp\htdocs\admin\assets\js\bootstrap.js;f4;157;12;157;;C:\xampp\htdocs\admin\assets\js\bootstrap-datepicker.js;f3;1654;11;1654;;C:\xampp\htdocs\admin\assets\datatables\js\jquery.dataTables.min.js;f211;159;219;159;;C:\xampp\htdocs\admin\assets\datatables\js\dataTables.bootstrap.js;f18;12;26;12;;C:\xampp\htdocs\admin\application\views\masters\master_user.php;f4;60;12;60;;C:\xampp\htdocs\admin\application\views\dashboard.php;f4;119;12;119;;C:\xampp\htdocs\admin\application\views\masters\master_voucher.php;f4;52;12;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 				<treenode node="getElementsByClassName;JS:Function Name;C:\xampp\htdocs\admin\user_guide\nav\prototype.lite.js;f9;53;1;69;;;;vpos;;v;;r;;d54,53;;b0,0;;mclassName;;p">
 					<treenode node="child;JS:JS Var Name;C:\xampp\htdocs\admin\user_guide\nav\prototype.lite.js;f5;58;10;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 					</treenode>
@@ -27838,6 +27395,8 @@
 			</treenode>
 			<treenode node="T;JS:JS Var Name;C:\xampp\htdocs\admin\assets\jquery\jquery-latest.min.js;f2968;2;2969;2;;C:\xampp\htdocs\admin\assets\jquery\jquery-2.1.4.min.js;f2284;2;2285;2;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
+			<treenode node="table;JS:JS Var Name;C:\xampp\htdocs\admin\application\views\dashboard.php;f6;118;11;118;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
 			<treenode node="tb;JS:JS Var Name;C:\xampp\htdocs\admin\assets\jquery\jquery-latest.min.js;f16585;2;16587;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="Tb;JS:JS Var Name;C:\xampp\htdocs\admin\assets\jquery\jquery-latest.min.js;f27686;2;27688;2;;;;vposArray;;v;;r;;d-1,-1;;b0,0;;m">
@@ -28172,33 +27731,33 @@
 		<file name="C:\xampp\htdocs\admin\application\views\reports\kota_user.php" crc="1550175042"/>
 		<file name="C:\xampp\htdocs\admin\application\views\reports\kota_order.php" crc="2043525007"/>
 		<file name="C:\xampp\htdocs\admin\application\views\masters\master_voucher.php" crc="-1076226478"/>
-		<file name="C:\xampp\htdocs\admin\application\views\masters\master_user.php" crc="-1751069195"/>
+		<file name="C:\xampp\htdocs\admin\application\views\masters\master_user.php" crc="-2126743177"/>
 		<file name="C:\xampp\htdocs\admin\application\views\includes\navbar.php" crc="-825593309"/>
-		<file name="C:\xampp\htdocs\admin\application\views\includes\header.php" crc="1746245993"/>
+		<file name="C:\xampp\htdocs\admin\application\views\includes\header.php" crc="112454879"/>
 		<file name="C:\xampp\htdocs\admin\application\views\includes\footer_empty.php" crc="1789565367"/>
 		<file name="C:\xampp\htdocs\admin\application\views\includes\footer.php" crc="-2114984685"/>
 		<file name="C:\xampp\htdocs\admin\application\views\update_voucher.php" crc="-1934138912"/>
-		<file name="C:\xampp\htdocs\admin\application\views\order_view.php" crc="-2095726169"/>
+		<file name="C:\xampp\htdocs\admin\application\views\order_view.php" crc="-105266188"/>
 		<file name="C:\xampp\htdocs\admin\application\views\logOrder_view.php" crc="186517685"/>
 		<file name="C:\xampp\htdocs\admin\application\views\login.php" crc="1213865360"/>
-		<file name="C:\xampp\htdocs\admin\application\views\kategori_view.php" crc="1553003560"/>
-		<file name="C:\xampp\htdocs\admin\application\views\edit_order_view.php" crc="538717126"/>
+		<file name="C:\xampp\htdocs\admin\application\views\kategori_view.php" crc="1245178846"/>
+		<file name="C:\xampp\htdocs\admin\application\views\edit_order_view.php" crc="-2132349457"/>
 		<file name="C:\xampp\htdocs\admin\application\views\edit_kategori_view.php" crc="-242568728"/>
 		<file name="C:\xampp\htdocs\admin\application\views\edit_dOrder_view.php" crc="-354218127"/>
 		<file name="C:\xampp\htdocs\admin\application\views\edit_detailOrder_view.php" crc="46686667"/>
-		<file name="C:\xampp\htdocs\admin\application\views\dashboard.php" crc="-474780070"/>
+		<file name="C:\xampp\htdocs\admin\application\views\dashboard.php" crc="556713945"/>
 		<file name="C:\xampp\htdocs\admin\application\views\changeStatusOrder_view.php" crc="1586871423"/>
 		<file name="C:\xampp\htdocs\admin\application\views\barangKategori_view.php" crc="-264234270"/>
 		<file name="C:\xampp\htdocs\admin\application\views\barang_view2.php" crc="1127975390"/>
 		<file name="C:\xampp\htdocs\admin\application\views\barang_view1.php" crc="-1081405138"/>
 		<file name="C:\xampp\htdocs\admin\application\views\barang_view_detail2.php" crc="1823011110"/>
-		<file name="C:\xampp\htdocs\admin\application\views\barang_view_detail.php" crc="2048638640"/>
-		<file name="C:\xampp\htdocs\admin\application\views\barang_view.php" crc="-770246580"/>
+		<file name="C:\xampp\htdocs\admin\application\views\barang_view_detail.php" crc="-395145185"/>
+		<file name="C:\xampp\htdocs\admin\application\views\barang_view.php" crc="-1745116254"/>
 		<file name="C:\xampp\htdocs\admin\application\models\order_model.php" crc="-1859183810"/>
 		<file name="C:\xampp\htdocs\admin\application\models\model_voucher.php" crc="1366054548"/>
 		<file name="C:\xampp\htdocs\admin\application\models\model_user.php" crc="1440258978"/>
 		<file name="C:\xampp\htdocs\admin\application\models\model_reports.php" crc="-276995615"/>
-		<file name="C:\xampp\htdocs\admin\application\models\barang_model.php" crc="1879241995"/>
+		<file name="C:\xampp\htdocs\admin\application\models\barang_model.php" crc="318118783"/>
 		<file name="C:\xampp\htdocs\admin\application\libraries\gcharts\configs\vAxis.php" crc="-1807671244"/>
 		<file name="C:\xampp\htdocs\admin\application\libraries\gcharts\configs\tooltip.php" crc="-432133254"/>
 		<file name="C:\xampp\htdocs\admin\application\libraries\gcharts\configs\textStyle.php" crc="1769154005"/>
@@ -28238,8 +27797,8 @@
 		<file name="C:\xampp\htdocs\admin\application\errors\error_general.php" crc="-408254174"/>
 		<file name="C:\xampp\htdocs\admin\application\errors\error_db.php" crc="-1726591355"/>
 		<file name="C:\xampp\htdocs\admin\application\errors\error_404.php" crc="1631448776"/>
-		<file name="C:\xampp\htdocs\admin\application\controllers\barang.php" crc="-720849933"/>
-		<file name="C:\xampp\htdocs\admin\application\controllers\admin.php" crc="-949674516"/>
+		<file name="C:\xampp\htdocs\admin\application\controllers\barang.php" crc="1552866188"/>
+		<file name="C:\xampp\htdocs\admin\application\controllers\admin.php" crc="652881184"/>
 		<file name="C:\xampp\htdocs\admin\application\config\user_agents.php" crc="-484381080"/>
 		<file name="C:\xampp\htdocs\admin\application\config\smileys.php" crc="-749249654"/>
 		<file name="C:\xampp\htdocs\admin\application\config\routes.php" crc="-1166988290"/>
@@ -28258,6 +27817,7 @@
 		<file name="C:\xampp\htdocs\admin\application\.htaccess" crc="-643410220"/>
 		<file name="C:\xampp\htdocs\admin\license.txt" crc="-1892232780"/>
 		<file name="C:\xampp\htdocs\admin\index.php" crc="-645041117"/>
+		<file name="C:\xampp\htdocs\admin\desktop.ini" crc="867727249"/>
 		<file name="C:\xampp\htdocs\admin\.travis.yml" crc="-2099826871"/>
 	</filescache>
 </project>

@@ -52,6 +52,7 @@ class Admin extends CI_Controller {
 		$this->load->model('model_user');
 		$this->load->model('model_voucher');
 		$this->load->model('model_reports');
+		$this->load->model('barang_model');
 	}
 	
 	/**
@@ -118,6 +119,9 @@ class Admin extends CI_Controller {
 				$info['total_user'] = $this->model_reports->get_count_user(); // get total_user data from database
 				$info['total_item'] = $this->model_reports->get_count_item(); // get total_item data from database
 				$info['income_day'] = $this->model_reports->get_transaction_today(); // get income_day data from database
+				
+				$this->barang_model->setDataOrderHariIni();
+				$info['allDataOrder'] = $this->barang_model->getTodayOrder();
 				$this->load->view('includes/header', $info); // loads views
 				$this->load->view('includes/navbar', $info);
 				$this->load->view('dashboard', $info);
@@ -155,7 +159,9 @@ class Admin extends CI_Controller {
 			
 			// set username from cookie
 			$data['username'] = $this->input->cookie('proyek');
-			
+			$this->barang_model->setDataOrderHariIni();
+			$data['allDataOrder'] = $this->barang_model->getTodayOrder();
+		
 			// loads views
 			$this->load->view('includes/header', $data);
 			$this->load->view('includes/navbar', $data);
@@ -319,6 +325,8 @@ class Admin extends CI_Controller {
 			// set username from cookie
 			$data['username'] = $this->input->cookie('proyek');
 			
+			$data['allDataBarang'] = $this->barang_model->getAllDataBarang();
+			
 			// loads views
 			$this->load->view('includes/header', $data);
 			$this->load->view('includes/navbar', $data);
@@ -338,7 +346,8 @@ class Admin extends CI_Controller {
 			
 			// set username from cookie
 			$data['username'] = $this->input->cookie('proyek');
-			
+			$data['allDataKategori'] = $this->barang_model->getAllDataKategori();
+		
 			// loads views
 			$this->load->view('includes/header', $data);
 			$this->load->view('includes/navbar', $data);
@@ -358,6 +367,7 @@ class Admin extends CI_Controller {
 			
 			// set username from cookie
 			$data['username'] = $this->input->cookie('proyek');
+			$data['allDataOrder'] = $this->barang_model->getDataHorder();
 			
 			// loads views
 			$this->load->view('includes/header', $data);

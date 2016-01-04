@@ -55,6 +55,14 @@
 										</tr>
 									  </thead>
 									  <tbody>
+									  <?php foreach($allDataOrder as $row){?>
+										<tr> 
+											<td><?php echo $row->user_username; ?></td>
+											<td><?php echo $row->tanggal_update; ?></td>
+											<td><?php echo $row->status; ?></td>
+											<td><?php echo anchor('barang/edit_order/'.$row->id,'Edit Detail', 'class="btn btn-primary btn-sm"'); ?></td>
+										</tr>
+									  <?php }?>
 									  </tbody>
 									</table>
 								</div>
@@ -78,16 +86,6 @@
 	var table;
 	$(document).ready(function() {
 	  table = $('#table').DataTable({ 
-		
-		"processing": true, //Feature control the processing indicator.
-		"serverSide": true, //Feature control DataTables' server-side processing mode.
-		"bFilter": false,
-		// Load data for the table's content from an Ajax source
-		"ajax": {
-			"url": "<?php echo site_url('barang/ajax_order') ?>",
-			"type": "POST"
-		},
-
 		//Set column definition initialisation properties.
 		"columnDefs": [
 			{ 
@@ -102,10 +100,6 @@
 	  });
 	  
 	});
-	function reload_table()
-	{
-	table.ajax.url("<?php echo site_url('barang/ajax_order') ?>");
-	table.ajax.reload(null,false); //reload datatable ajax
-	}
+	
 </script>
 

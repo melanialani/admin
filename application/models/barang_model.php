@@ -62,80 +62,28 @@ class Barang_model extends CI_Model{
 	
 	}
 	
-	public function getAllDataBarang($orders,$limit, $start){
-		//"nama_barang","brand_barang", "deskripsi_barang", "stock_barang", "harga_barang", "diskon_barang", "detail_barang", "garansi_barang", "warna_barang", "gambar_barang", "jml_lihat", "status"
+	public function getAllDataBarang(){
 		$this->db->select('id as id_barang, nama as nama_barang, brand as brand_barang, stok as stock_barang, harga as harga_barang, diskon as diskon_barang, status as status');
 		$this->db->from('barang');
-		$this->db->limit($limit,$start);
-		if ($orders != null){
-			foreach ($orders as $key => $value){
-				$this->db->order_by($key, $value);
-			}
-		}
 		$results = $this->db->get()->result();
-
-		$arrBarang = [];
-		foreach($results as $row){
-			$barang = [];
-			$barang[] = $row->nama_barang;
-			$barang[] = $row->brand_barang;
-			$barang[] = $row->stock_barang;
-			$barang[] = $row->harga_barang;
-			$barang[] = $row->diskon_barang;
-			$barang[] = $row->status;			
-			$barang[] = anchor('barang/view_detail/'.$row->id_barang,'Edit', 'class="btn btn-primary btn-sm"');
-			$arrBarang[] = $barang;
-		}
-		return $arrBarang;
+		
+		return $results;
 	}
 	
-	public function getAllDataKategori($orders, $limit, $start){
-		//"nama_barang","brand_barang", "deskripsi_barang", "stock_barang", "harga_barang", "diskon_barang", "detail_barang", "garansi_barang", "warna_barang", "gambar_barang", "jml_lihat", "status"
+	public function getAllDataKategori(){
 		$this->db->select('id as id_kategori, nama as nama_kategori, status as status_kategori');
 		$this->db->from('kategori');
-		$this->db->limit($limit,$start);
-		if ($orders != null){
-			foreach ($orders as $key => $value){
-				$this->db->order_by($key, $value);
-			}
-		}
 		$results = $this->db->get()->result();
-
-		$arrKategori = [];
-		foreach($results as $row){
-			$kategori = [];
-			$kategori[] = $row->id_kategori;
-			$kategori[] = $row->nama_kategori;
-			$kategori[] = $row->status_kategori;
-			$kategori[] = anchor('barang/edit_kategori/'.$row->id_kategori,'Edit', 'class="btn btn-primary btn-sm"');
 		
-			$arrKategori[] = $kategori;
-		}
-		return $arrKategori;
+		return $results;
 	}
 	
-	public function getDataHorder($orders, $limit, $start){
+	public function getDataHorder(){
 		$this->db->select('*');
 		$this->db->from('horder');
-		$this->db->limit($limit,$start);
-		if ($orders != null){
-			foreach ($orders as $key => $value){
-				$this->db->order_by($key, $value);
-			}
-		}		
 		$results = $this->db->get()->result();
 		
-		$arrHorder = [];
-		foreach($results as $row){
-			$horder = [];
-			$horder [] = $row->user_username;
-			$horder [] = $row->tanggal_update;
-			$horder [] = $row->status;
-			$horder[] = anchor('barang/edit_order/'.$row->id,'Edit Detail', 'class="btn btn-primary btn-sm"');
-			$arrHorder [] = $horder;
-		}
-		
-		return $arrHorder;
+		return $results;
 	}
 	
 	public function getDataLogOrder($orders, $limit, $start){
@@ -166,7 +114,6 @@ class Barang_model extends CI_Model{
 		return $arrLogOrder;
 	}
 	
-	
 	public function countAll() {
 		$this->db->select('*');
         $this->db->from('barang');
@@ -188,6 +135,12 @@ class Barang_model extends CI_Model{
 	public function countAllLogOrder() {
 		$this->db->select('*');
         $this->db->from('log_order');
+		return $this->db->count_all_results();
+    }
+	
+	public function countAllTodayOrder(){
+		$this->db->select('*');
+        $this->db->from('todayorder');
 		return $this->db->count_all_results();
     }
 	
@@ -215,7 +168,7 @@ class Barang_model extends CI_Model{
 		return $result;
 	}
 	
-	public function UbahGambarBarang($id,$nama, $brand, $desk,$stok,$harga,$diskon, $det, $garansi, $status, $kumpulanGambar, $kumpulanWarna){
+	public function UbahGambarBarang($id,$nama, $brand, $desk,$stok,$harga,$diskon, $det, $garansi,$berat,$status, $kumpulanGambar, $kumpulanWarna){
 		$data = array(
 			'nama' => $nama,
 			'brand' =>$brand,
@@ -225,6 +178,7 @@ class Barang_model extends CI_Model{
 			'diskon' => $diskon,
 			'field_detail' => $det,
 			'garansi' => $garansi,
+			'berat_gram' => $berat,
 			'status' => $status,
 			'gambar' => $kumpulanGambar,
 			'warna' => $kumpulanWarna
@@ -294,32 +248,11 @@ class Barang_model extends CI_Model{
 		return $result;
 	}
 	
-	public function saveEditHOrder($id, $user, $alamat, $kota, $penerima, $total, $voucher, $grand, $hrgJNE, $caraJNE, $kodeJNE, $tipeBayar, $kodeBayar, $tglCreate, $tglUpdate){
-		$data = array(
-			'user_username' => $user,
-			'alamat' => $alamat,
-			'kota' => $kota,
-			'nama_penerima'=> $penerima,
-			'total' => $total,
-			'voucher_id' => $voucher,
-			'grand_total' => $grand,
-			'harga_jne' => $hrgJNE,
-			'cara_jne' => $caraJNE,
-			'kode_jne' => $kodeJNE,
-			'tipe_pembayaran'=> $tipeBayar,
-			'kode_pembayaran'=> $kodeBayar,
-			'tanggal_create'=> $tglCreate,
-			'tanggal_update'=> $tglUpdate,
-		);
-		
-		$this->db->where('id', $id);
-		$this->db->update('horder', $data);
-	}
-	
 	public function getDataDetailOrder($selected_horderId, $orders, $limit, $start){
 		$this->db->select('*');
 		$this->db->from('dorder');
 		$this->db->where('horder_id', $selected_horderId);
+		$this->db->limit($limit,$start);
 		$results = $this->db->get()->result();
 
 		$arrDetailOrder = [];
@@ -337,6 +270,81 @@ class Barang_model extends CI_Model{
 		return $arrDetailOrder;	
 	}
 	
+	public function setDataOrderHariIni(){
+		// clear data from table
+		$this->db->select('*');
+		$this->db->from('todayorder');
+		$result = $this->db->get()->result();
+		
+		foreach($result as $row){
+			$this->db->where('id', $row->id);
+			$this->db->delete('todayorder');
+		
+		}
+		
+		$tgl_saatIni = date('Y-m-d');
+		
+		$this->db->select('id, tanggal_create');
+		$this->db->from('horder');
+		$resultsTanggalCreated = $this->db->get()->result();
+		
+		$arr_horderId = []; 
+		foreach($resultsTanggalCreated as $row){
+			$tglcreate = explode(" ", $row->tanggal_create);
+			if($tglcreate[0] == $tgl_saatIni){
+				$arr_horderId [] = $row->id; 
+			}
+		}
+		
+		if(count($arr_horderId) > 0){
+		for($i = 0; $i < count($arr_horderId); $i++){
+			
+			$this->db->select('barang_id');
+			$this->db->from('dorder');
+			$this->db->where('horder_id', $arr_horderId[$i]);
+			$barangId = $this->db->get()->row()->barang_id;
+			
+			$this->db->select('nama');
+			$this->db->from('barang');
+			$this->db->where('id', $barangId);	
+			$namaBarang = $this->db->get()->row()->nama;
+			
+			$this->db->select('keterangan');
+			$this->db->from('dorder');
+			$this->db->where('horder_id', $arr_horderId[$i]);
+			$ket = $this->db->get()->row()->keterangan;
+			
+			$this->db->select('qty');
+			$this->db->from('dorder');
+			$this->db->where('horder_id', $arr_horderId[$i]);
+			$qty = $this->db->get()->row()->qty;
+			
+			$data = array(
+				'horder_id' => $arr_horderId[$i],
+				'barang_id' => $barangId,
+				'nama_barang' => $namaBarang,
+				'keterangan' => $ket,
+				'qty' => $qty,
+				'date' => $tgl_saatIni
+			);
+			
+			$this->db->insert('todayorder', $data);
+		
+		}
+		}
+	}
+	
+	public function getTodayOrder(){
+		$tgl_hariIni = date('Y-m-d');
+		
+		$this->db->select('*');
+		$this->db->from('todayorder');
+		$this->db->where('date', $tgl_hariIni);
+		$results = $this->db->get()->result();
+		
+		return $results;
+	}
+	
 	public function getDataDOrder($id_dorder){
 		$this->db->select('*');
 		$this->db->from('dorder');
@@ -352,8 +360,6 @@ class Barang_model extends CI_Model{
 		return $this->db->count_all_results();
 	}
 	
-	
-	
 	public function updateDorder($idDOrder,$horderId ,$barangId,$ket,$qty,$hrg,$subtot,$status){
 		$data = array(
 			'keterangan'=>$ket,
@@ -365,7 +371,6 @@ class Barang_model extends CI_Model{
 		$this->db->where('id', $idDOrder);
 		$this->db->where('horder_id', $horderId);
 		$this->db->where('barang_id', $barangId);
-		
 		$this->db->update('dorder', $data);
 	}
 	
@@ -382,7 +387,7 @@ class Barang_model extends CI_Model{
 		$this->db->delete('log_order');
 	}
 	
-	public function update_dbarang($id_barang, $nama, $brand, $deskripsi, $stock, $hrg, $diskon, $detail, $garansi, $status){
+	public function update_dbarang($id_barang, $nama, $brand, $deskripsi, $stock, $hrg, $diskon, $detail, $garansi,$berat,$status){
 		$data = array(
 			'nama'=>$nama,
 			'brand'=>$brand,
@@ -391,7 +396,9 @@ class Barang_model extends CI_Model{
 			'harga'=>$hrg,
 			'diskon'=>$diskon,
 			'field_detail'=>$detail,
-			'garansi'=> $garansi
+			'garansi'=> $garansi,
+			'berat_gram'=> $berat,
+			'status'=> $status
 		);
 		$this->db->where('id', $id_barang);
 		$this->db->update('barang', $data);

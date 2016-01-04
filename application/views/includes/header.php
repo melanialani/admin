@@ -8,26 +8,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- jquery -->
-    <script src="<?php echo base_url('assets/jquery/jquery-2.1.4.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/jquery/jquery-latest.min.js')?>"></script>
-    <!-- responsive page -->
-    <script src="<?php echo base_url('assets/js/html5shiv.min.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/lumino.glyphs.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/respond.min.js')?>"></script>
-    
-    <!-- bootstrap --> <!-- css -->
+	<!-- bootstrap --> <!-- css -->
     <link href="<?php echo base_url('assets/css/bootstrap-table.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrap-theme.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrap-theme.min.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrap.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet">
-    <!-- bootstrap --> <!-- jquery -->
+    
+	<!-- jquery -->
+    <script src="<?php echo base_url('assets/jquery/jquery-2.1.4.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/jquery/jquery-latest.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/jquery/jquery-latest.min.js')?>"></script>
+   
+   <!-- bootstrap --> <!-- jquery -->
     <script src="<?php echo base_url('assets/js/bootstrap-datepicker.js')?>"></script>
     <script src="<?php echo base_url('assets/js/bootstrap-table.js')?>"></script>
     <script src="<?php echo base_url('assets/js/bootstrap.js')?>"></script>
-    <script src="<?php echo base_url('assets/js/bootstrap.min.js')?>"></script>
     
+	 
     <!-- datepicker -->
     <link href="<?php echo base_url('assets/css/datepicker.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/css/datepicker3.css')?>" rel="stylesheet">
@@ -35,7 +33,13 @@
     <link href="<?php echo base_url('assets/css/report.css')?>" rel="stylesheet">
     <!-- css my style -->
     <link href="<?php echo base_url('assets/css/styles.css')?>" rel="stylesheet">
-    
+   
+    <!-- responsive page -->
+    <script src="<?php echo base_url('assets/js/html5shiv.min.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/lumino.glyphs.js')?>"></script>
+    <script src="<?php echo base_url('assets/js/respond.min.js')?>"></script>
+   
+	
     <!-- dataTable --> <!-- css -->
     <link href="<?php echo base_url('assets/datatables/css/dataTables.bootstrap.css')?>" rel="stylesheet">
     <link href="<?php echo base_url('assets/datatables/css/jquery.dataTables.min.css')?>" rel="stylesheet">

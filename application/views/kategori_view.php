@@ -59,6 +59,14 @@
 									</tr>
 								  </thead>
 								  <tbody>
+									<?php foreach($allDataKategori as $row){?>
+										<tr> 
+											<td><?php echo $row->id_kategori; ?></td>
+											<td><?php echo $row->nama_kategori; ?></td>
+											<td><?php echo $row->status_kategori; ?></td>
+											<td><?php echo anchor('barang/edit_kategori/'.$row->id_kategori,'Edit', 'class="btn btn-primary btn-sm"'); ?></td>
+										</tr>
+									<?php }?>
 								  </tbody>
 								</table>
 							</div>
@@ -66,11 +74,6 @@
 					</div>
 				</div>
 			</div>
-			
-			
-			
-			
-			
 			
 		</div>
 	</div><!--/.row-->
@@ -87,16 +90,6 @@
 	var table;
 	$(document).ready(function() {
 	  table = $('#table').DataTable({ 
-		
-		"processing": true, //Feature control the processing indicator.
-		"serverSide": true, //Feature control DataTables' server-side processing mode.
-		"bFilter": false,
-		// Load data for the table's content from an Ajax source
-		"ajax": {
-			"url": "<?php echo site_url('barang/ajax_kategori') ?>",
-			"type": "POST"
-		},
-
 		//Set column definition initialisation properties.
 		"columnDefs": [
 		{ 
@@ -108,13 +101,7 @@
 		  "orderable": false //set not orderable
 		},
 		]
-		
 	  });
 	  
 	});
-	function reload_table()
-	{
-	table.ajax.url("<?php echo site_url('barang/ajax_kategori') ?>");
-	table.ajax.reload(null,false); //reload datatable ajax
-	}
 </script>

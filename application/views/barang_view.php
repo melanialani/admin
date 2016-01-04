@@ -61,6 +61,17 @@
 										</tr>
 									  </thead>
 									  <tbody>
+										<?php foreach($allDataBarang as $row){?>
+										<tr> 
+											<td><?php echo $row->nama_barang; ?></td>
+											<td><?php echo $row->brand_barang; ?></td>
+											<td><?php echo $row->stock_barang; ?></td>
+											<td><?php echo $row->harga_barang; ?></td>
+											<td><?php echo $row->diskon_barang; ?></td>
+											<td><?php echo $row->status; ?></td>
+											<td><?php echo anchor('barang/view_detail/'.$row->id_barang,'Edit', 'class="btn btn-primary btn-sm"'); ?></td>
+										</tr>
+										<?php }?>
 									  </tbody>
 									</table>
 								</div>
@@ -80,26 +91,11 @@
 			</div>
 		</div>
 </div>	<!--/.main-->
-
-
-
-
-
-
 <script type="text/javascript">
 	var table;
 	$(document).ready(function() {
-	  table = $('#table').DataTable({ 
 		
-		"processing": true, //Feature control the processing indicator.
-		"serverSide": true, //Feature control DataTables' server-side processing mode.
-		"bFilter": false,
-		// Load data for the table's content from an Ajax source
-		"ajax": {
-			"url": "<?php echo site_url('barang/ajax_barang') ?>",
-			"type": "POST"
-		},
-
+	  table = $('#table').DataTable({ 
 		//Set column definition initialisation properties.
 		"columnDefs": [
 			{ 
@@ -111,13 +107,7 @@
 			  "orderable": false //set not orderable
 			},
 			]
-	  });
-	  
+		});
 	});
-	function reload_table()
-	{
-	table.ajax.url("<?php echo site_url('barang/ajax_barang') ?>");
-	table.ajax.reload(null,false); //reload datatable ajax
-	}
 </script>
 

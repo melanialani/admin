@@ -41,10 +41,7 @@
 									<label for='usernameUser' class='control-label'>Username</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
-									<?php 
-										$user = $row->user_username;
-										echo form_input(['id'=>'tbUser', 'name'=>'tbUser', 'class'=> 'form-control'], $user); 
-									?>
+									<label for='tbUsernameUser' class='control-label'><?php echo $row->user_username; ?></label>
 								</div>
 							</div>
 							</div>
@@ -55,10 +52,7 @@
 									<label for='alamat' class='control-label'>alamat</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
-									<?php 
-										$alamat = $row->alamat;
-										echo form_input(['id'=>'tbAlamat', 'name'=>'tbAlamat', 'class'=> 'form-control'], $alamat); 
-									?>
+									<label for='tbAlamat' class='control-label'><?php echo $row->alamat; ?></label>
 								</div>
 							</div>
 							</div>
@@ -69,10 +63,7 @@
 									<label for='kota' class='control-label'>Kota</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
-									<?php 
-										$kota = $row->kota;
-										echo form_input(['id'=>'tbKota', 'name'=>'tbKota', 'class'=> 'form-control'], $kota); 
-									?>
+									<label for='tbKota' class='control-label'><?php echo $row->kota; ?></label>
 								</div>
 							</div>
 							</div>
@@ -83,10 +74,7 @@
 									<label for='penerima' class='control-label'>Penerima</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
-									<?php 
-										$penerima = $row->nama_penerima;
-										echo form_input(['id'=>'tbPenerima', 'name'=>'tbPenerima', 'class'=> 'form-control'], $penerima); 
-									?>
+									<label for='tbPenerima' class='control-label'><?php echo $row->nama_penerima; ?></label>
 								</div>
 							</div>
 							</div>
@@ -97,10 +85,7 @@
 									<label for='total' class='control-label'>Total</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
-									<?php 
-										$total = $row->total;
-										echo form_input(['id'=>'tbTotal', 'name'=>'tbTotal', 'class'=> 'form-control'], $total); 
-									?>
+									<label for='tbTotal' class='control-label'><?php echo $row->total; ?></label>
 								</div>
 							</div>
 							</div>
@@ -111,10 +96,12 @@
 									<label for='voucherId' class='control-label'>Voucher Id</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
-									<?php 
-										$voucher = $row->voucher_id;
-										echo form_input(['id'=>'tbVoucher', 'name'=>'tbVoucher', 'class'=> 'form-control'], $voucher); 
+									<label for='tbVoucherId' class='control-label'>
+									<?php
+										if($row->voucher_id != ""){	echo $row->voucher_id;}										
+										else{echo "-"; }
 									?>
+									</label>
 								</div>
 							</div>
 							</div>
@@ -125,10 +112,9 @@
 									<label for='grandTot' class='control-label'>Grand Total</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
-									<?php 
-										$grandTot = $row->grand_total;
-										echo form_input(['id'=>'tbGrand', 'name'=>'tbGrand', 'class'=> 'form-control'], $grandTot); 
-									?>
+									<label for='tbGrandTot' class='control-label'>
+									<?php echo $row->grand_total; ?>
+									</label>
 								</div>
 							</div>
 							</div>
@@ -139,10 +125,11 @@
 									<label for='HrgJne' class='control-label'>Harga JNE</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
+									<label for='tbHargaJNE' class='control-label'>
 									<?php 
-										$tarif = $row->harga_jne;
-										echo form_input(['id'=>'tbHargaJNE', 'name'=>'tbHargaJNE', 'class'=> 'form-control'], $tarif); 
+										echo $row->harga_jne; 
 									?>
+									</label>
 								</div>
 							</div>
 							</div>
@@ -153,10 +140,12 @@
 									<label for='caraJNE' class='control-label'>Cara JNE</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
+									<label for='tbCaraJNE' class='control-label'>
 									<?php 
-										$cara = $row->cara_jne;
-										echo form_input(['id'=>'tbCaraJNE', 'name'=>'tbCaraJNE', 'class'=> 'form-control'], $cara); 
+										if($row->cara_jne != ""){ echo $row->cara_jne; }
+										else{ echo "-"; }		
 									?>
+									</label>
 								</div>
 							</div>
 							</div>
@@ -167,10 +156,13 @@
 									<label for='kodeJNE' class='control-label'>Kode JNE</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
-									<?php 
-										$kodeJNE = $row->kode_jne;
-										echo form_input(['id'=>'tbKodeJNE', 'name'=>'tbKodeJNE', 'class'=> 'form-control'], $kodeJNE); 
+									<label for='tbKodeJNE' class='control-label'>
+									<?php
+										echo form_hidden('h_kodejne', $row->kode_jne);
+										if($row->kode_jne != ""){ echo $row->kode_jne; }
+										else{ echo "-"; }		
 									?>
+									</label>
 								</div>
 							</div>
 							</div>
@@ -181,10 +173,13 @@
 									<label for='tipePembayaran' class='control-label'>Tipe Pembayaran</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
-									<?php 
-										$tipePemb = $row->tipe_pembayaran;
-										echo form_input(['id'=>'tbTipePemb', 'name'=>'tbTipePemb', 'class'=> 'form-control'], $tipePemb); 
+									<label for='tbTipePemb' class='control-label'>
+									<?php
+										echo form_hidden('h_tipePemb', $row->tipe_pembayaran);
+										if($row->tipe_pembayaran != ""){ echo $row->tipe_pembayaran; }
+										else{ echo "-"; }		
 									?>
+									</label>
 								</div>
 							</div>
 							</div>
@@ -195,10 +190,14 @@
 									<label for='kodePemb' class='control-label'>Kode Pembayaran</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
+									<label for='tbKodePemb' class='control-label'>
 									<?php 
-										$kodePemb = $row->kode_pembayaran;
-										echo form_input(['id'=>'tbKodePemb', 'name'=>'tbKodePemb', 'class'=> 'form-control'], $kodePemb); 
+										echo form_hidden('h_kodePemb', $row->kode_pembayaran);
+										if($row->kode_pembayaran != ""){ echo $row->kode_pembayaran; }
+										else{ echo "-"; }		
 									?>
+									</label>
+									
 								</div>
 							</div>
 							</div>
@@ -209,10 +208,13 @@
 									<label for='tanggalCreate' class='control-label'>Tanggal Create</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
+									<label for='tbTglCreate' class='control-label'>
 									<?php 
-										$tglCreate = $row->tanggal_create;
-										echo form_input(['id'=>'tbTglCreate', 'name'=>'tbTglCreate', 'class'=> 'form-control'], $tglCreate); 
+										if($row->tanggal_create != ""){ echo $row->tanggal_create; }
+										else{ echo "-"; }		
 									?>
+									</label>
+									
 								</div>
 							</div>
 							</div>
@@ -223,10 +225,12 @@
 									<label for='tglUpdate' class='control-label'>Tanggal Update</label>
 								</div>		
 								<div class = 'col-md-9 col-sm-9 col-xs-9'>
+									<label for='tbTglUpdate' class='control-label'>
 									<?php 
-										$tglUpdate = $row->tanggal_update;
-										echo form_input(['id'=>'tbTglUpdate', 'name'=>'tbTglUpdate', 'class'=> 'form-control'], $tglUpdate); 
+										if($row->tanggal_update != ""){ echo $row->tanggal_update; }
+										else{ echo "-"; }		
 									?>
+									</label>
 								</div>
 							</div>
 							</div>
